@@ -5,6 +5,16 @@ I'm an Electronic Information Engineering student interested in cybersecurity, a
 ## 🚀 Current Projects
 
 - 🚁 **Autonomous Drone RL Control** — reinforcement learning for drone waypoint flight and landing
+
+### Autonomous Drone Waypoint Following
+
+<p align="center">
+  <img src="assets/WaypointFollow.gif" width="700" alt="Autonomous drone waypoint following demo">
+</p>
+
+This demo shows my reinforcement-learning drone model following waypoint targets in a 3D simulation environment.
+
+
 - 🦇 **Bat-Inspired Acoustic Drone Navigation** — ultrasonic echolocation-based indoor mapping and navigation
 
 Bat-inspired ultrasonic mapping and indoor exploration for GPS-denied indoor environments.
