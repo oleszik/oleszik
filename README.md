@@ -12,6 +12,8 @@ Bat-inspired ultrasonic mapping and indoor exploration for GPS-denied indoor env
 | Doorway Exploration | Single Block Obstacle |
 |---|---|
 | ![Acoustic Doorway Demo](assets/Acoustic_Doorway.gif) | ![Acoustic Single Block Demo](assets/Acoustic_SingleBlock.gif) |
+
+
 These demos show an acoustic navigation simulation where the drone explores indoor layouts using virtual ultrasonic sensing, obstacle avoidance, and coverage-based navigation.
 
 ## 🧠 Interests
