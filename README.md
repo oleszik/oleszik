@@ -4,15 +4,11 @@ I'm an Electronic Information Engineering student interested in cybersecurity, a
 
 ## 🚀 Current Projects
 
-- 🛡️ **CyberTools** — custom bug bounty and vulnerability scanning toolkit
 - 🚁 **Autonomous Drone RL Control** — reinforcement learning for drone waypoint flight and landing
 - 🦇 **Bat-Inspired Acoustic Drone Navigation** — ultrasonic echolocation-based indoor mapping and navigation
-- 🎮 **Terminal Escape Room Game** — Python-based puzzle engine with JSON room logic
 
 ## 🧠 Interests
 
-- Network Security
-- Bug Bounty Hunting
 - Reinforcement Learning
 - Drone Autonomy
 - Embedded Systems
