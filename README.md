@@ -1,42 +1,78 @@
 # Hi, I'm Ole 👋
 
-I'm an Electronic Information Engineering student interested in cybersecurity, autonomous drones, reinforcement learning, and embedded systems.
+I'm an Electronic Information Engineering student focused on **autonomous drones, robotics, reinforcement learning, and embedded systems**.
 
-## 🚀 Current Projects
+I build simulation-based autonomy systems involving perception, mapping, path planning, safety logic, and flight-control integration.
 
-- 🚁 **Autonomous Drone RL Control** — reinforcement learning for drone waypoint flight and landing
+## 🚀 Featured Projects
 
-### Autonomous Drone Waypoint Following
+### 🚁 [Autonomous Drone Control](https://github.com/oleszik/drone_thesis_clean)
+
+Reinforcement-learning-based drone control for waypoint following, landing, and autonomous scan missions.
 
 <p align="center">
-  <img src="assets/WaypointFollow.gif" width="700" alt="Autonomous drone waypoint following demo">
+  <img src="assets/WaypointFollow.gif" width="700" alt="Autonomous drone following waypoint targets in a 3D simulation">
 </p>
 
-This demo shows my reinforcement-learning drone model following waypoint targets in a 3D simulation environment.
+**Highlights**
 
+* Autonomous waypoint following and landing
+* Reinforcement learning with Stable-Baselines3
+* ArduPilot and MAVLink integration
+* Simulation-to-flight-control workflow
+* Safety-focused evaluation with reproducible benchmarks
 
-- 🦇 **Bat-Inspired Acoustic Drone Navigation** — ultrasonic echolocation-based indoor mapping and navigation
+---
 
-Bat-inspired ultrasonic mapping and indoor exploration for GPS-denied indoor environments.
+### 🦇 [Bat-Inspired Acoustic Drone Navigation](https://github.com/oleszik/Bat-Inspired-Acoustic-Navigation-for-Drones)
 
-| Doorway Exploration | Single Block Obstacle |
-|---|---|
-| ![Acoustic Doorway Demo](assets/Acoustic_Doorway.gif) | ![Acoustic Single Block Demo](assets/Acoustic_SingleBlock.gif) |
+An acoustic perception and navigation system for exploring GPS-denied indoor environments using simulated ultrasonic echolocation.
 
+| Doorway Exploration                                          | Obstacle Exploration                                              |
+| ------------------------------------------------------------ | ----------------------------------------------------------------- |
+| ![Acoustic doorway exploration](assets/Acoustic_Doorway.gif) | ![Acoustic obstacle exploration](assets/Acoustic_SingleBlock.gif) |
 
-These demos show an acoustic navigation simulation where the drone explores indoor layouts using virtual ultrasonic sensing, obstacle avoidance, and coverage-based navigation.
+**Highlights**
 
-## 🧠 Interests
+* Acoustic echo simulation and feature extraction
+* Occupancy and doorway mapping
+* Frontier-based exploration and A* path planning
+* Safety-aware autonomous navigation
+* **78.17% mission success**
+* **92.83% doorway-crossing success**
+* **0% collisions** in the evaluated benchmark
 
-- Reinforcement Learning
-- Drone Autonomy
-- Embedded Systems
-- Raspberry Pi / ESP32 Projects
-- Simulation and Robotics
+---
 
-## 🛠️ Tech Stack
+### 🤖 [Autonomous Swarm Mapping](https://github.com/oleszik/swarm-threat-sim)
 
-```text
-Python | Java | MATLAB | HTML | CSS | JavaScript
-Linux | Git | GitHub | Raspberry Pi | ESP32
-Flask | Tkinter | Stable-Baselines3 | ArduPilot | MAVLink
+A multi-drone simulation platform for cooperative exploration with simulated LiDAR, shared occupancy mapping, frontier planning, and a 3D replay dashboard.
+
+**Best benchmark results**
+
+* **90.11% environment exploration**
+* **65.46% coverage**
+* **0 collisions**
+* **0 failed drones**
+
+## 🛠️ Technical Skills
+
+**Programming:** Python, Java, JavaScript, MATLAB
+**AI & Simulation:** Reinforcement Learning, Stable-Baselines3, autonomous navigation
+**Robotics:** ArduPilot, MAVLink, mapping, path planning, drone simulation
+**Embedded Systems:** Raspberry Pi, ESP32
+**Development:** Linux, Git, GitHub, Flask, FastAPI
+
+## 🎯 Current Focus
+
+* Autonomous drone navigation
+* Reinforcement learning for robotics
+* GPS-denied perception and mapping
+* Simulation-to-hardware integration
+* Embedded robotic systems
+
+## 📫 Contact
+
+I'm interested in internships and junior opportunities in **robotics, autonomous systems, drone technology, and applied AI**.
+
+Feel free to explore my projects or connect with me on LinkedIn.
