@@ -100,3 +100,5 @@ A multi-drone simulation platform for cooperative exploration with simulated LiD
 I'm interested in internships and junior opportunities in **robotics, autonomous systems, drone technology, and applied AI**.
 
 Feel free to explore my projects or connect with me on LinkedIn.
+
+www.linkedin.com/in/ole-sendzik-097322433
