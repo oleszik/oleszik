@@ -8,22 +8,26 @@ I build simulation-based autonomy systems involving perception, mapping, path pl
 
 ### 🚨 [EchoRescue](https://github.com/oleszik/ECHORESCUE)
 
-A deterministic multi-drone search-and-rescue simulation with shared occupancy mapping, survivor detection, energy-aware return-to-base, and a browser-based mission replay dashboard.
+**Autonomous search-and-rescue robotics research platform**
+
+A deterministic multi-agent mission simulator and integrated ROS 2 / ArduPilot SITL / Gazebo flight stack for indoor exploration, mapping, safe navigation and survivor evidence.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/oleszik/ECHORESCUE/master/docs/assets/echorescue-mission-replay.gif"
-       width="800"
-       alt="EchoRescue autonomous multi-drone search-and-rescue mission">
+  <img src="https://raw.githubusercontent.com/oleszik/ECHORESCUE/master/docs/assets/v0.15.0-gazebo-doorway.png" width="800" alt="EchoRescue simulated Iris quadrotor crossing an indoor doorway">
 </p>
 
-**Verified across 50 deterministic scenarios**
+**Latest accepted milestone: v0.16.1**
 
-* **40.67% shorter mission duration** with two coordinated drones
-* **100% survivor recall**
-* **0 wall and inter-drone collisions**
-* **2/2 drones returned safely** in every evaluated mission
-* Deterministic mission replays and machine-readable benchmarks
-* **50 automated tests** covering mapping, planning, safety, energy, coordination, replay integrity, and hidden-state protection
+* LiDAR-based occupancy mapping and autonomous frontier exploration
+* Bounded A* planning, waypoint execution and safe return
+* Controlled rendered-camera survivor evidence
+* Independent simulation evaluation and machine-readable acceptance reports
+* Separate deterministic multi-agent coordination and mission replay environment
+
+[Explore the repository](https://github.com/oleszik/ECHORESCUE) · [Live mission replay](https://oleszik.github.io/ECHORESCUE/)
+
+*Simulation-only research; the illustrated v0.15.0 flight is a single-vehicle known-map demonstration.*
+
 
 ---
 
